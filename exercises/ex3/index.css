@@ -3,22 +3,21 @@
     margin: 0px;
 }
 nav {
-    background-color: blue;
+    border: 2px blue;
     width: 100%;
     padding: 10px;
-    display: flex;
+    display: grid;
     align-items: center;
     overflow: hidden;
   }
   ul{
     list-style: none;
-    display: inline-flex;
+    display: grid;
     align-items: center;
     column-gap: 12px;
   }
   .container {
-    display: flex;
-    flex: 1;
+    display: grid;
     justify-content: space-between;
 }
   .sidebar-left{
